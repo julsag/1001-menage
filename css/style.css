@@ -1,0 +1,126 @@
+ /* General classes for page */
+
+body {
+  background: #F4F4F4;
+  font-family: 'Open Sans';
+}
+
+.pourquoi{
+  background-color: #428BCA;
+}
+
+.pourquoi h1{
+  color: white;
+
+}
+
+.pourquoi p{
+  
+  font-size: 20px;
+}
+
+.pourquoi i{
+  color: white;
+  font-size: 20px;
+}
+
+.maps{
+  height: 500px;
+}
+
+/* Footer */
+
+#footer {
+  background-color: white;
+  color: #777777;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+#footer p{
+  
+  color: #777777;
+  
+}
+
+
+#footer a {
+  color: #428BCA;
+}
+
+#footer a:hover {
+  color: #7777;
+}
+
+.social a {
+  font-size: 24px;
+}
+
+.social a:hover {
+  text-decoration: none;
+}
+
+/* Lead with big image */
+
+.wrapper {
+  background-image: url('../images/background/bg.jpg');
+  height: 650px;
+  background-size: cover;
+  padding-top: 150px;
+  margin-top: -70px;
+  text-align: center;
+  color: #777777;
+}
+
+.lead h1 {
+  font-size: 72px;
+  
+}
+
+.lead h2 {
+  
+  display: inline-block;
+  padding: 0.2em;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 2em;
+}
+
+/* Vertical spacer to help content breathe */
+
+.vertical-spacer {
+  height: 8em;
+}
+
+/* Some padding for feature images */
+
+.feature img {
+  margin-bottom: 2em;
+}
+
+.feature {
+  color: #444444;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+/* How to override the default Bootstrap colors */
+
+
+/* How to override the default Bootstrap navbar */
+
+
+
+.navbar-default li{
+    margin-top: 20px;
+  
+}
+
+
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+  
+}
