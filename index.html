@@ -147,25 +147,7 @@
 <div class="col-sm-6">
 <div  id="map" style="height: 300px;"></div>
 
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 
-<script type="text/javascript">
-  var myLatlng = new google.maps.LatLng(49.4652110,1.1058800);
-
-  var myOptions = {
-      zoom: 14,
-      center: myLatlng,
-      mapTypeId: google.maps.MapTypeId.ROADMAP,
-      styles: []
-  };
-
-  var map = new google.maps.Map(document.getElementById('map'), myOptions);
-  var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map,
-      title: "You are here!"
-  });
-</script>
 </div>
 
 <div class="col-sm-6">
@@ -200,7 +182,25 @@
 </div>
 
 
-    
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKa7c48_I2COoo7EBOzLSJ7Mq8lyJY6y4"async defer></script>
+
+<script type="text/javascript">
+  var myLatlng = new google.maps.LatLng(49.4652110,1.1058800);
+
+  var myOptions = {
+      zoom: 14,
+      center: myLatlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      styles: []
+  };
+
+  var map = new google.maps.Map(document.getElementById('map'), myOptions);
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: "You are here!"
+  });
+</script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   </body>
