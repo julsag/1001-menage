@@ -9,8 +9,7 @@
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css"
-          href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -147,7 +146,7 @@
 <div class="vertical-spacer"></div>
 <div class="row">
 <div class="col-sm-6">
-<div  id="map" style="width: 100%; height: 300px;"></div>
+<div  id="map" style="height: 300px;"></div>
 
 
 </div>
@@ -184,7 +183,7 @@
 </div>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKa7c48_I2COoo7EBOzLSJ7Mq8lyJY6y4&callback=initMap"
-  async defer>
+  type="text/javascript">
 </script>
    
 
@@ -202,7 +201,7 @@
   var marker = new google.maps.Marker({
       position: myLatlng,
       map: map,
-      title: "1001 Prestations"
+      title: "You are here!"
   });
 </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
