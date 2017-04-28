@@ -7,6 +7,8 @@ body {
 
 }
 
+
+
 .pourquoi{
   background-color: #428BCA;
 }
@@ -113,12 +115,17 @@ body {
 /* How to override the default Bootstrap navbar */
 
 
-
 .navbar-default li{
     margin-top: 20px;
   
 }
 
+@media (min-width: 250px){
+
+.navbar-right {
+    float: right!important;
+  }
+}
 
 
 .navbar-default {
