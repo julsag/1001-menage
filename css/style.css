@@ -175,6 +175,16 @@ body {
   padding: 0 20px;
 }
 
+.navbar-wagon-item1 {
+  flex: 0 1 auto;
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+.navbar-wagon-link1 {
+  color: #616668;
+  font-size: 20px;
+}
 /* Navbar standard link */
 .navbar-wagon-link {
   color: #616668;
