@@ -1,5 +1,14 @@
  /* General classes for page */
 
+.boite_white
+{
+  
+background: white;
+width: 100%;
+padding:60px 60px 60px 60px;
+}
+
+
 body {
   background: #F4F4F4;
   font-family: 'Open Sans', sans-serif;
@@ -71,7 +80,7 @@ body {
   height: 650px;
   background-size: cover;
   padding-top: 150px;
-  margin-top: -70px;
+  margin-top: -90px;
   text-align: center;
   color: #777777;
 }
@@ -140,11 +149,11 @@ body {
   background: white;
   transition: all 0.3s ease;
   display: flex;
-  height: 70px;
+  height: ;
   padding: 0px 30px;
   align-items: center;
   justify-content: space-between;
-  padding-top: 60px;
+  padding-top: 6px;
 }
 
 /* Optional class to fix the navbar on top */
