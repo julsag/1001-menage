@@ -80,7 +80,7 @@ body {
   height: 650px;
   background-size: cover;
   padding-top: 150px;
-  margin-top: -90px;
+  margin-top: -130px;
   text-align: center;
   color: #777777;
 }
@@ -105,6 +105,11 @@ body {
 .vertical-spacer {
   height: 6em;
 }
+
+.spacer {
+  height: 2em;
+}
+
 
 /* Some padding for feature images */
 
@@ -167,7 +172,7 @@ body {
 
 /* Navbar logo */
 .navbar-wagon-brand img {
-  width: 80px;
+  width: 100px;
 }
 
 /* Navbar right section (with form, links, button) */
